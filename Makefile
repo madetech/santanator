@@ -5,6 +5,7 @@ install-poetry:
 .PHONY: setup
 setup:
 	 poetry install
+	 poetry run python3 manage.py migrate
 
 .PHONY: run
 run:
