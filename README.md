@@ -8,5 +8,6 @@ make install-poetry
 
 ## to run
 ```bash
+make setup
 make run
 ```
