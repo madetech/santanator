@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('SUPER_SECRET_KEY', '@w^a(am!f5=0k&mv!^chzf#h=$bphhr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS').split(',')
+ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS', '').split(',')
 
 # Application definition
 
