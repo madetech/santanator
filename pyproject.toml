@@ -2,11 +2,12 @@
 name = "santanator"
 version = "0.1.0"
 description = ""
-authors = ["cob16 <public+github@cormacbrady.info>"]
+authors = ["cob16 <public+github@cormacbrady.info>", "elena-vi <elena@madetech.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 django = "^3.1.3"
+social-auth-app-django = "^4.0.0"
 
 [tool.poetry.dev-dependencies]
 
