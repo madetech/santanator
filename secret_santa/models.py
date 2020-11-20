@@ -5,4 +5,4 @@ class Member(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=30)
     address = models.TextField()
-    target = models.OneToOneField(User)
+    target = models.ForeignKey("self", blank=True, null=True, on_delete=models.SET_NULL)

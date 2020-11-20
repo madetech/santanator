@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'social_django',
+    'secret_santa.apps.SecretSantaConfig'
 ]
 
 MIDDLEWARE = [
