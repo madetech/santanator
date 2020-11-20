@@ -30,4 +30,4 @@ jobs:
       - name: poetry install
         run: poetry install
       - name: run tests
-        run: poetry run python -V #placeholder
+        run: poetry run python manage.py test
