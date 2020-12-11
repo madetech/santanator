@@ -11,6 +11,7 @@ A secret Santa application that will allow Made Tech colleagues to sign up for a
   - [Auth tutorial that was followed](https://medium.com/trabe/oauth-authentication-in-django-with-social-auth-c67a002479c1)
 - [Kanban board with tasks and user stories](https://github.com/madetech/santanator/projects/1)
 - [Miro board with all the ideas](https://miro.com/app/board/o9J_lb_l79E=/)
+- [Heroku console](https://dashboard.heroku.com/apps/santanator/settings)
 
 ## Getting started
 run in the termainal
